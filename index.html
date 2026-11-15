@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#a92e37">
+  <meta name="description" content="发现身边的空间，一起改善宿舍生活。交大宿舍共创，本地交互演示。">
+  <title>交大宿舍共创 · 让好想法，在楼下发生</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="portal.css">
+  <script src="views.js" defer></script>
+  <script src="portal.js" defer></script>
+  <link rel="stylesheet" href="feedback.css">
+  <script src="feedback.js" defer></script>
+  <link rel="stylesheet" href="services.css">
+  <script src="services.js" defer></script>
+  <link rel="stylesheet" href="campus.css">
+  <script src="campus.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="demo-strip"><span class="demo-dot"></span><strong>演示模式</strong><span class="demo-long">一起探索宿舍生活的更多可能</span><span class="demo-storage">记录仅保存在当前浏览器</span></div>
+  <header class="site-header"><a class="brand" href="#/" aria-label="交大宿舍共创首页"><span class="brand-mark">共</span><span>交大宿舍共创<small>SJTU · LIVING TOGETHER</small></span></a><div class="header-nav"><a href="#/spaces">发现空间 <span>01</span></a><a href="#/plaza">一起共创 <span>02</span></a><button data-action="about">关于项目 ↗</button></div><div class="header-side"><span class="header-campus">上海交通大学 · 学生实践项目</span><button class="avatar" data-action="about" aria-label="查看演示说明">访</button></div></header>
+  <main id="app" tabindex="-1"><div class="loading" role="status">正在准备校园生活地图…</div></main>
+  <footer class="site-footer"><span>从身边的小事开始，让共同生活更好一点。</span><span>学生 × 宿管 · 一起发现，一起行动</span></footer>
+  <nav class="bottom-nav" aria-label="主导航"><a href="#/" data-nav="home"><span data-icon="home"></span><span>首页</span></a><a href="#/spaces" data-nav="spaces"><span data-icon="map"></span><span>空间地图</span></a><a href="#/plaza" data-nav="plaza"><span data-icon="chat"></span><span>共创广场</span></a></nav>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

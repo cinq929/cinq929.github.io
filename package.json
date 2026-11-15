@@ -1,0 +1,10 @@
+{
+  "name": "sjtu-dorm-co-create",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check views.js && node --check portal.js && node --check feedback.js && node --check services.js && node --check campus.js && node --check server.mjs"
+  }
+}
